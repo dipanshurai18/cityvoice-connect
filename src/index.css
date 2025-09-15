@@ -73,10 +73,9 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+}
 
-  }
-
-  /* Utility classes for CityVoice */
+/* Utility classes for CityVoice */
   .bg-gradient-hero {
     background: var(--gradient-hero);
   }
@@ -100,7 +99,6 @@ All colors MUST be HSL.
   .transition-smooth {
     transition: var(--transition-smooth);
   }
-}
 
 @layer base {
   * {
