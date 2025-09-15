@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "civic-blue": {
+          DEFAULT: "hsl(var(--civic-blue))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        "civic-green": {
+          DEFAULT: "hsl(var(--civic-green))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        "civic-orange": {
+          DEFAULT: "hsl(var(--civic-orange))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        "civic-red": {
+          DEFAULT: "hsl(var(--civic-red))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
